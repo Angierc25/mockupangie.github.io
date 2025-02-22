@@ -153,6 +153,116 @@ header {
     transition: transform 0.2s ease, opacity 0.3s ease;
 }
 
+.section1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 20px; 
+  border-bottom: 1px solid #e0e0e0; 
+}
+
+.section1 p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.section1 .blue {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.img-logos{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 15px;
+}
+
+.img-logos img {
+  max-height: 100px; 
+  width: auto;
+  opacity: 0.5;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.img-logos img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.discover {
+  text-align: center;
+  padding: 60px 40px;
+  max-width: 1300px; 
+  width: 90%; 
+  margin: 0 auto;
+
+  flex-direction: column;
+  align-items: center;
+
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+
+  gap: 28px;
+}
+
+.discover h2{
+  font-size: 33px;
+  color: #292e70;
+}
+
+.discover p {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 2;
+}
+
+.options{
+  display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    gap: auto;
+    margin-bottom: 30px;
+}
+
+
+.caracter{
+  flex: 1;
+  max-width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.caracter img{
+  max-width: 100%;
+  opacity: 0.5;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.caracter h3{
+  font-size: 1.2rem;
+  color: #383d8b;
+  margin-top: 15px;
+}
+
+.caracter p{
+  font-size: 0.9rem;
+  color: #666;
+  padding-top: 10px;
+}
+
+.caracter:hover{
+  transform: translateY(-5px);
+}
+
+.caracter:hover img {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
