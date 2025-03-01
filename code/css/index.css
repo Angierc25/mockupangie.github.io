@@ -383,6 +383,69 @@ header {
   opacity: 1;
 }
 
+.productividad{
+  padding: 100px 40px;
+  max-width: 1300px; 
+  width: 90%; 
+  margin: 0 auto;
+
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+
+  gap: 50px;
+  padding-top: 120px;
+}
+.texto-impulsando{
+  max-width: 45%;
+  max-height: 400px; 
+}
+
+.texto-impulsando h2{
+  font-size: 33px;
+  color: #272c70;
+}
+
+.texto-impulsando p{
+  padding-top: 15px;
+  font-size: 15px;
+  color: #666;
+  line-height: 1.8;
+  margin: 20px 0;
+  text-align: justify;
+}
+.btn-prueba{
+  background-color: #007bff;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 20px;
+  color: #fff;
+  border: 2px solid #007bff;
+}
+.btn-prueba:hover{
+  background-color: #ffffff;
+  color: #007bff;
+}
+.imagen-estadistica{
+  max-width: 55%;
+  flex-direction: column;
+  align-items: center;
+}
+.imagen-estadistica img{
+  max-height: 400px; 
+  width: auto;
+  opacity: 0.8;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+.imagen-estadistica img:hover{
+  opacity: 1;
+  transform: scale(1.01);
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {

@@ -1,20 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const features = document.querySelectorAll(".caracters2");
-
-    features.forEach(feature => {
-        feature.addEventListener("click", function () {
-            toggleFeature(this, features);
-        });
+    document.querySelectorAll(".caracters2").forEach(feature => {
+        feature.addEventListener("click", () => toggleFeature(feature));
     });
 });
 
-function toggleFeature(element, allFeatures) {
-    let isActive = element.classList.contains("active");
+function toggleFeature(element) {
+    document.querySelectorAll(".caracters2").forEach(f => f.classList.remove("active"));
+    element.classList.toggle("active");
+}
 
-    // Cierra todas las demás características antes de abrir una nueva
-    allFeatures.forEach(f => f.classList.remove("active"));
 
-    if (!isActive) {
-        element.classList.add("active");
+const imgLogos = document.querySelector(".img-logos");
+let scrollAmount = 0;
+
+function scrollLogos() {
+    scrollAmount -= 0.5; // Ajusta la velocidad aquí
+    imgLogos.style.transform = `translateX(${scrollAmount}px)`;
+
+    if (scrollAmount <= -imgLogos.scrollWidth / 15) {
+        scrollAmount = 0;
     }
 }
+
+setInterval(scrollLogos, 30);
