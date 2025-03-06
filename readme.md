@@ -67,5 +67,3 @@ Este es un prototipo visual sin integración con servidores ni WebRTC. En futura
 
 ## Autor
 - AngieCarhuas
-
-
