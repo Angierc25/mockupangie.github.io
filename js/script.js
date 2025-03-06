@@ -9,6 +9,7 @@ function toggleFeature(element) {
     element.classList.toggle("active");
 }
 
+// Segunda 
 
 const imgLogos = document.querySelector(".img-logos");
 let scrollAmount = 0;
