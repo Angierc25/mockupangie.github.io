@@ -447,17 +447,53 @@ header {
 }
 
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .nav-links {
-        display: none;
-    }
-
-    .hero {
-        padding: 6rem 5% 3rem;
-    }
+.Impulso_pro{
+  padding: 100px 80px;
+  max-width: 1400px; 
+  width: 100%; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #20285a;
+  gap: 50px;
+  padding-top: 120px;
+}
+.imagen_video2{
+  max-width: 55%;
+  flex-direction: column;
+  align-items: center;
+}
+.imagen_video2 img {
+  transform: rotate(-2deg); 
+  filter: drop-shadow(0 10px 15px rgba(131, 79, 79, 0.1));
+}
+.seccion5{
+  max-width: 45%;
+  max-height: 400px; 
+}
+.seccion5 h2{
+  font-size: 33px;
+  color: #fff;
+  
+}
+.seccion5 p{
+  padding-top: 15px;
+  font-size: 15px;
+  color: #e6e6e6;
+  line-height: 1.8;
+  margin: 20px 0;
+  text-align: justify;
+  
+}
+.starco{
+  background-color: #ff6c01;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #fff;
+  border: 2px solid #ff6c01;
+  margin-top: 20px;
 }
