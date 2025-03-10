@@ -465,7 +465,7 @@ header {
   align-items: center;
 }
 .imagen_video2 img {
-  transform: rotate(-2deg); 
+  transform: rotate(-5deg); 
   filter: drop-shadow(0 10px 15px rgba(131, 79, 79, 0.1));
 }
 .seccion5{
@@ -487,7 +487,7 @@ header {
   
 }
 .starco{
-  background-color: #ff6c01;
+  background-color: #ff8c00;
   padding: 12px 24px;
   font-size: 16px;
   border-radius: 6px;
