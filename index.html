@@ -5,43 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daffon Mockup Page</title>
     <link rel="stylesheet" href="/code/css/index.css">
+    <!-- Añadimos la biblioteca AOS para animaciones -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav >
-            <div class="logoBar">
+        <nav>
+            <div class="logoBar" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="300">
                 <img src="/rg/img/img1.png" alt="Daffon Logo" class="logo">affon
             </div>
             <div class="navbar">
                 <ul class="nav-links">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Equipos</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#">Inicio</a></li>
+                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#">Nosotros</a></li>
+                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700"><a href="#">Equipos</a></li>
+                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800"><a href="#">Blog</a></li>
+                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900"><a href="#">Contacto</a></li>
                </ul>
-               <a href="#" class="btn btn-primary">Descarga ahora</a>
+               <a href="#" class="btn btn-primary" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="600">Descarga ahora</a>
             </div>
         </nav>
    </header>
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Conéctese en donde desee</h1>
-            <p>Disfruta de videollamadas seguras desde cualquier dispositivo. <br>
+            <h1 data-aos="fade-right" data-aos-duration="1200" data-aos-delay="1100">Conéctese en donde desee</h1>
+            <p data-aos="fade-left" data-aos-duration="1200" data-aos-delay="1200">Disfruta de videollamadas seguras desde cualquier dispositivo. <br>
                 Conéctate sin interrupciones en cualquier momento
             </p>
-            <div class="hero-btn" >
-            <a href="#download" class="btn-btn">Descargar ahora</a>
+            <div class="hero-btn" data-aos="zoom-out" data-aos-duration="1200" data-aos-delay="1300">
+                <a href="#download" class="btn-btn">Descargar ahora</a>
             </div>
         </div>  
             
-            <div class="app-preview">
-                <img src="/rg/img/conf.png" alt="Videoconferencia">
-            </div>
+        <div class="app-preview" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="1400">
+            <img src="/rg/img/conf.png" alt="Videoconferencia">
+        </div>
         <div class="section1">
-            <p> Más de <span class="blue">50.000</span> usuarios de todo el mundo confían en nosotros</p>
-            <div class="img-logos">
+            <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100"> Más de <span class="blue">50.000</span> usuarios de todo el mundo confían en nosotros</p>
+            <div class="img-logos" data-aos="zoom-out" data-aos-duration="1200" data-aos-delay="300">
                 <img src="/rg/img/emp1.png" alt="demio">
                 <img src="/rg/img/emp3.png" alt="ShipBob">
                 <img src="/rg/img/emp2.png" alt="ProfitWell">
@@ -170,5 +173,11 @@
 
 
     <script src="/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init();
+        });
+    </script>
 </body>
 </html>
