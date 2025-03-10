@@ -61,7 +61,8 @@ Este proyecto es un mockup de una plataforma de videollamadas desarrollado con H
 
 
 ```
-
+## Proyecto Guia 
+![Captura de la página web](/rg/img/pagina_Web.png)
 ## Estado del Proyecto
 Este es un prototipo visual sin integración con servidores ni WebRTC. En futuras versiones, se puede agregar funcionalidad real de videollamadas.
 
