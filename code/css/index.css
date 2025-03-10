@@ -465,7 +465,7 @@ header {
   align-items: center;
 }
 .imagen_video2 img {
-  transform: rotate(-5deg); 
+  transform: rotate(-10deg); 
   filter: drop-shadow(0 10px 15px rgba(131, 79, 79, 0.1));
 }
 .seccion5{
