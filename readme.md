@@ -63,8 +63,19 @@ Este proyecto es un mockup de una plataforma de videollamadas desarrollado con H
 ```
 ## Proyecto Guia 
 ![Captura de la página web](/rg/img/pagina_Web.png)
+
 ## Estado del Proyecto
-Este es un prototipo visual sin integración con servidores ni WebRTC. En futuras versiones, se puede agregar funcionalidad real de videollamadas.
+Avances realizados 
+      ### Header - NavBar
+      ![Captura de la página web](/rg/img/header_nav.png)
+      ### Descubre Funcionalidades
+      ![Captura de la página web](/rg/img/header_nav.png)
+      ### ¿Por qué debes escogernos?
+      ![Captura de la página web](/rg/img/Escogernos.png)
+      ### Impulsar la colaboración y la productividad 
+      ![Captura de la página web](/rg/img/av_Impulsar.png)
+      ### Frase
+      ![Captura de la página web](/rg/img/Av_frase.png)
 
 ## Autor
 - AngieCarhuas
