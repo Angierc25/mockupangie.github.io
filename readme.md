@@ -3,6 +3,10 @@
 ## Descripción
 Este proyecto es un mockup de una plataforma de videollamadas desarrollado con HTML, CSS y JavaScript. Su objetivo es proporcionar una representación visual e interactiva de una interfaz de videoconferencia.
 
+## Enlace del proyecto en Github Page
+Puedes acceder al proyecto a través del siguiente enlace:  
+[Visita mi Pagina](https://angierc25.github.io/mockupangie.github.io/)
+
 ## Tecnologías Utilizadas
 - **HTML**: Estructura de la página.
 - **CSS**: Estilos y diseño responsivo.
@@ -78,9 +82,7 @@ Avances realizados
       ![Captura de la página web](/rg/img/Av_frase.png)
 
 
-## Enlace del proyecto
-Puedes acceder al proyecto a través del siguiente enlace:  
-[https://41f4-38-253-159-145.ngrok-free.app/](https://41f4-38-253-159-145.ngrok-free.app/)
+
 
 
 ## Autor
