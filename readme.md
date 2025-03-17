@@ -77,5 +77,11 @@ Avances realizados
       ### Frase
       ![Captura de la página web](/rg/img/Av_frase.png)
 
+
+## Enlace del proyecto
+Puedes acceder al proyecto a través del siguiente enlace:  
+[https://41f4-38-253-159-145.ngrok-free.app/](https://41f4-38-253-159-145.ngrok-free.app/)
+
+
 ## Autor
 - AngieCarhuas
